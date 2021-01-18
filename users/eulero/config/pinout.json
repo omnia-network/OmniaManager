@@ -1,0 +1,23 @@
+{
+    "in":{
+        "UP": {
+            "number": 12
+        },
+        "DOWN": {
+            "number": 13
+        },
+        "SELECT": {
+            "number": 14
+        }
+    },
+    "out": {
+        "LED": {
+            "number": 16
+        }
+    },
+    "neopixel":{
+        "NEO1": {
+            "number":15
+        }
+    }
+}

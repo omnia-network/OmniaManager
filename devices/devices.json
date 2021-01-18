@@ -1,0 +1,28 @@
+{
+    "246f28b07d30": {
+                        "name" : "keyboard",
+                        "class" : "keyboard"
+                    },
+
+    "b827ebd3df4d": {
+                        "name" : "screen_1",
+                        "class" : "display"
+                    },
+
+    "b827eb707bac": {
+                        "name" : "screen_2",
+                        "class" : "display"
+    },
+    "b827eb468e6c": {
+        "name" : "speaker",
+        "class" : "sound"
+    },
+    "500291dedb70": {
+        "name": "back_door",
+        "class": "door"
+    },
+    "ac5f3ed7ba1b": {
+        "name": "eulero_phone",
+        "class": "screen"
+    }
+}

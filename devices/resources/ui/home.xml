@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<ui bg-color='(60,60,60)' orientation='landscape'>
+    <button id='play'>
+        <position>(130,180)</position>    <!--required-->
+        <text>play</text>  <!--required-->
+        <image dimensions='(60,60)'>devices/resources/ui/play.png</image>
+        <visible>true</visible>
+        <dimensions></dimensions>
+        <text-color></text-color>
+        <background-color></background-color>
+        <outline-color></outline-color>
+    </button>
+    <button id='pause'>
+        <position>(130,180)</position>    <!--required-->
+        <text>play</text>  <!--required-->
+        <image dimensions='(60,60)'>devices/resources/ui/pause.png</image>
+        <visible>false</visible>
+        <dimensions></dimensions>
+        <text-color></text-color>
+        <background-color></background-color>
+        <outline-color></outline-color>
+    </button>
+    <button id='next'>
+        <position>(210,190)</position>    <!--required-->
+        <text>next</text>  <!--required-->
+        <image dimensions='(40,40)'>devices/resources/ui/next.png</image>
+        <visible></visible>
+        <dimensions></dimensions>
+        <text-color></text-color>
+        <background-color></background-color>
+        <outline-color></outline-color>
+    </button>
+    <button id='prev'>
+        <position>(67,190)</position>    <!--required-->
+        <text>next</text>  <!--required-->
+        <image dimensions='(40,40)'>devices/resources/ui/prev.png</image>
+        <visible></visible>
+        <dimensions></dimensions>
+        <text-color></text-color>
+        <background-color></background-color>
+        <outline-color></outline-color>
+    </button>
+
+    <button id='vup'>
+        <position>(10,40)</position>    <!--required-->
+        <text>vup</text>  <!--required-->
+        <image dimensions='(30,30)'>devices/resources/ui/vup.png</image>
+        <visible>true</visible>
+    </button>
+    <button id='vdown'>
+        <position>(10,110)</position>    <!--required-->
+        <text>vdown</text>  <!--required-->
+        <image dimensions='(30,30)'>devices/resources/ui/vdown.png</image>
+        <visible>true</visible>
+    </button>
+    <label id='vlevel'>
+        <position>(15,75)</position>    <!--required-->
+        <text>5</text>          <!--required-->
+        <text-color>(255,255,255)</text-color>
+        <font-size>18</font-size>
+    </label>
+
+    <line id='track'>
+        <start>(9,182)</start>
+        <end>(310,182)</end>
+        <width>2</width>
+        <color>(255,255,255)</color>
+    </line>
+    <label id='circle'>
+        <position>(9,175)</position>    <!--required-->
+        <text>circle</text>          <!--required-->
+        <image dimensions='(15,15)'>devices/resources/ui/circle.png</image>
+        <visible>true</visible>
+        <dimensions></dimensions>
+        <text-color>(255,255,255)</text-color>
+        <background-color></background-color>
+        <outline-color></outline-color>
+    </label>
+    <label id='cover'>
+        <position>(80,10)</position>    <!--required-->
+        <text>cover</text>          <!--required-->
+        <image dimensions='(160,160)'>devices/resources/audio/sally.jpg</image>
+        <visible>true</visible>
+        <dimensions></dimensions>
+        <text-color>(255,255,255)</text-color>
+        <background-color></background-color>
+        <outline-color></outline-color>
+    </label>
+    <label id='song-name'>
+        <position>(61,0)</position>    <!--required-->
+        <text>-</text>          <!--required-->
+        <image></image>
+        <visible>true</visible>
+        <dimensions></dimensions>
+        <text-color>(255,255,255)</text-color>
+        <background-color></background-color>
+        <outline-color></outline-color>
+    </label>
+    <label id='song-time'>
+        <position>(0,160)</position>    <!--required-->
+        <text>0:00</text>          <!--required-->
+        <image></image>
+        <visible>true</visible>
+        <dimensions></dimensions>
+        <text-color>(255,255,255)</text-color>
+        <background-color></background-color>
+        <outline-color></outline-color>
+        <font-size>11</font-size>
+    </label>
+    <label id='song-duration'>
+        <position>(285,160)</position>    <!--required-->
+        <text>0:00</text>          <!--required-->
+        <image></image>
+        <visible>true</visible>
+        <dimensions></dimensions>
+        <text-color>(255,255,255)</text-color>
+        <background-color></background-color>
+        <outline-color></outline-color>
+        <font-size>11</font-size>
+    </label>
+</ui>

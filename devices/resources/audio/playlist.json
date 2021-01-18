@@ -1,0 +1,14 @@
+{
+    "0":{
+        "name": "Sally",
+        "author": "Vasco Rossi",
+        "path": "devices/resources/audio/sally.wav",
+        "cover": "devices/resources/audio/sally.jpg"
+    },
+    "1":{
+        "name": "Vivere",
+        "author": "Vasco Rossi",
+        "path": "devices/resources/audio/vivere.wav",
+        "cover": "devices/resources/audio/vivere.jpg"
+    }
+}

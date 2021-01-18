@@ -1,0 +1,4 @@
+__pycache__/
+
+# ignore virtual environment
+rpi0-tests/

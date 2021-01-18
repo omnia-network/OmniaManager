@@ -1,0 +1,7 @@
+{
+    "width": 128,
+    "height":64,
+    "sda": 5,
+    "scl": 4,
+    "display_type": 0
+}
